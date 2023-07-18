@@ -81,7 +81,7 @@ Note that some columns have same number of missing values. This may be due to mi
 
 As ride_id has no null values, let's use it to check for duplicates.
 
-image
+![Screenshot 2023-07-18 011943](https://github.com/marknguyen7793/marknguyen/assets/73132788/37f36b13-1d07-4d13-a4e8-0b8c0e9fc378)
 
 There are no duplicate rows in the data.
 
