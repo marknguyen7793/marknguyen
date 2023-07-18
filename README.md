@@ -168,6 +168,7 @@ Summary:
 Start and end their journeys near parks, museums, along the coast and other recreational sites.	Start and end their trips close to universities, residential and commercial areas.|
 
 **Act**
+
 After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
 Recommendations:
 
