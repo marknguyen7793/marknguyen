@@ -67,53 +67,54 @@ Before cleaning the data, I am familiarizing myself with the data to find the in
 
 Observations:
 
-The table below shows the all column names and their data types. The **ride_id** column is our primary key.
+1. The table below shows the all column names and their data types. The **ride_id** column is our primary key.
 
 ![Screenshot 2023-07-18 011305](https://github.com/marknguyen7793/marknguyen/assets/73132788/3298206c-068d-405c-bfe0-1d49cbdcd5f1)
 
 
-The following table shows number of **null values** in each column.
+2. The following table shows number of **null values** in each column.
 
 ![Screenshot 2023-07-18 011805](https://github.com/marknguyen7793/marknguyen/assets/73132788/17ef33fb-c227-4d32-b983-6b180a0b3afc)
 
 
 Note that some columns have same number of missing values. This may be due to missing information in the same row i.e. station's name and id for the same station and latitude and longitude for the same ending station.
 
-As ride_id has no null values, let's use it to check for duplicates.
+3. As ride_id has no null values, let's use it to check for duplicates.
 
 ![Screenshot 2023-07-18 011943](https://github.com/marknguyen7793/marknguyen/assets/73132788/37f36b13-1d07-4d13-a4e8-0b8c0e9fc378)
 
 There are no **duplicate** rows in the data.
 
-All **ride_id** values have length of 16 so no need to clean it.
+4. All **ride_id** values have length of 16 so no need to clean it.
 
-There are 3 unique types of bikes(**rideable_type**) in our data.
+5. There are 3 unique types of bikes(**rideable_type**) in our data.
 
 ![Screenshot 2023-07-18 012043](https://github.com/marknguyen7793/marknguyen/assets/73132788/3e307ce6-1a36-41c7-9161-596fb193c32f)
 
 
-The **started_at** and **ended_at** shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 5360 trips which has duration longer than a day and 122283 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be helpful in analysis of trips at different times in a year.
+6. The **started_at** and **ended_at** shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 5360 trips which has duration longer than a day and 122283 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be helpful in analysis of trips at different times in a year.
 
-Total of 833064 rows have both **start_station_name** and **start_station_id** missing which needs to be removed.
+7. Total of 833064 rows have both **start_station_name** and **start_station_id** missing which needs to be removed.
 
-Total of 892742 rows have both **end_station_name** and **end_station_id** missing which needs to be removed.
+8. Total of 892742 rows have both **end_station_name** and **end_station_id** missing which needs to be removed.
 
-Total of 5858 rows have both **end_lat** and **end_lng** missing which needs to be removed.
+9. Total of 5858 rows have both **end_lat** and **end_lng** missing which needs to be removed.
 
-**member_casual** column has 2 uniqued values as member or casual rider.
+10. **member_casual** column has 2 uniqued values as member or casual rider.
 
 ![Screenshot 2023-07-18 012141](https://github.com/marknguyen7793/marknguyen/assets/73132788/9775609d-05c2-4607-8573-5dc91de5fee4)
 
 
-Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
+11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
 
 **Data Cleaning**
 SQL Query: Data Cleaning
 
-All the rows having missing values are deleted.
-3 more columns ride_length for duration of the trip, day_of_week and month are added.
-Trips with duration less than a minute and longer than a day are excluded.
-Total 1,375,912 rows are removed in this step.
+1. All the rows having missing values are deleted.
+2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.
+3. Trips with duration less than a minute and longer than a day are excluded.
+4. Total 1,375,912 rows are removed in this step.
+   
 **Analyze and Share**
 SQL Query: Data Analysis
 Data Visualization: Tableau
@@ -162,10 +163,13 @@ Similar trend can be observed in ending station locations. Casual riders end the
 
 Summary:
 
-**Casual**	: Prefer using bikes throughout the day, more frequently over the weekends in summer and spring for leisure activities.	Prefer riding bikes on week days during commute hours (8 am / 5pm) in summer and spring.
+**Casual**	: Prefer using bikes throughout the day, more frequently over the weekends in summer and spring for leisure activities.	
+            Travel 2 times longer but less frequently than members.
+            Start and end their journeys near parks, museums, along the coast and other recreational sites.
 
-**Member** : Travel 2 times longer but less frequently than members.	Travel more frequently but shorter rides (approximately half of casual riders' trip duration).
-Start and end their journeys near parks, museums, along the coast and other recreational sites.	Start and end their trips close to universities, residential and commercial areas.|
+**Member** : Prefer riding bikes on week days during commute hours (8 am / 5pm) in summer and spring.
+            Travel more frequently but shorter rides (approximately half of casual riders' trip duration).
+            Start and end their trips close to universities, residential and commercial areas.
 
 **Act**
 
