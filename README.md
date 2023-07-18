@@ -143,7 +143,7 @@ Ride duration of the trips are compared to find the differences in the behavior 
 
 ![Screenshot 2023-07-18 012632](https://github.com/marknguyen7793/marknguyen/assets/73132788/f64ec401-c36f-448b-a254-4d83e46e77d3)
 
-image
+![Screenshot 2023-07-18 012734](https://github.com/marknguyen7793/marknguyen/assets/73132788/4b4bb4e9-dafe-4612-aabc-938d829c036d)
 
 Take note that casual riders tend to cycle longer than members do on average. The length of the average journey for members doesn't change throughout the year, week, or day. However, there are variations in how long casual riders cycle. In the spring and summer, on weekends, and from 10 am to 2 pm during the day, they travel greater distances. Between five and eight in the morning, they have brief trips.
 
