@@ -62,7 +62,7 @@ SQL Query: [Data Combining](https://github.com/marknguyen7793/marknguyen/blob/ma
 12 csv files are uploaded as tables in the dataset '2022_tripdata'. Another table named "combined_data" is created, containing 5,667,717 rows of data for the entire year.
 
 #### **Data Exploration**
-SQL Query: Data Exploration
+SQL Query: [Data Exploration](https://github.com/marknguyen7793/marknguyen/blob/main/Google-Data-Analytics-Capstone-Cyclistic-Case-Study%20/02.%20Data%20Exploration)
 Before cleaning the data, I am familiarizing myself with the data to find the inconsistencies.
 
 Observations:
