@@ -69,7 +69,8 @@ Observations:
 
 The table below shows the all column names and their data types. The ride_id column is our primary key.
 
-image
+![Screenshot 2023-07-18 011305](https://github.com/marknguyen7793/marknguyen/assets/73132788/3298206c-068d-405c-bfe0-1d49cbdcd5f1)
+
 
 The following table shows number of null values in each column.
 
