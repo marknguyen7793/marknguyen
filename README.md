@@ -130,7 +130,8 @@ The members make 59.7% of the total while remaining 40.3% constitutes casual rid
 Next the number of trips distributed by the months, days of the week and hours of the day are examined.
 
 ![Screenshot 2023-07-18 012434](https://github.com/marknguyen7793/marknguyen/assets/73132788/6125ae86-95a9-4ac1-9b43-0967fb58a20f)
- image
+ ![Screenshot 2023-07-18 012536](https://github.com/marknguyen7793/marknguyen/assets/73132788/350a2a92-5d76-4618-9d47-63c6a4de4db1)
+
 
 Months: When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summmer.
 Days of Week: When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends while members show a decline over the weekend in contrast to the other days of the week.
