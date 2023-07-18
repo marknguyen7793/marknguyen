@@ -171,6 +171,7 @@ Summary:
             Travel more frequently but shorter rides (approximately half of casual riders' trip duration).
             Start and end their trips close to universities, residential and commercial areas.
 
+
 **Act**
 
 After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
