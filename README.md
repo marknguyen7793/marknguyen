@@ -102,7 +102,8 @@ Total of 5858 rows have both end_lat and end_lng missing which needs to be remov
 
 member_casual column has 2 uniqued values as member or casual rider.
 
-image
+![Screenshot 2023-07-18 012141](https://github.com/marknguyen7793/marknguyen/assets/73132788/9775609d-05c2-4607-8573-5dc91de5fee4)
+
 
 Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
 
