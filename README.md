@@ -162,10 +162,11 @@ Similar trend can be observed in ending station locations. Casual riders end the
 
 Summary:
 
-**Casual**	**Member**
-Prefer using bikes throughout the day, more frequently over the weekends in summer and spring for leisure activities.	Prefer riding bikes on week days during commute hours (8 am / 5pm) in summer and spring.
-Travel 2 times longer but less frequently than members.	Travel more frequently but shorter rides (approximately half of casual riders' trip duration).
-Start and end their journeys near parks, museums, along the coast and other recreational sites.	Start and end their trips close to universities, residential and commercial areas.
+|**Casual**|	|**Member**|
+|--- | --- |
+|Prefer using bikes throughout the day, more frequently over the weekends in summer and spring for leisure activities.	Prefer riding bikes on week days during commute hours (8 am / 5pm) in summer and spring.|
+|Travel 2 times longer but less frequently than members.	Travel more frequently but shorter rides (approximately half of casual riders' trip duration).
+Start and end their journeys near parks, museums, along the coast and other recreational sites.	Start and end their trips close to universities, residential and commercial areas.|
 
 **Act**
 After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
