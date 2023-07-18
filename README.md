@@ -3,11 +3,11 @@
 
 Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
 
-**Introduction**
+### **Introduction**
 
 In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
 
-**Quick links:**
+#### **Quick links:**
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [accessed on 04/03/23]
 
 SQL Queries:
@@ -18,8 +18,8 @@ SQL Queries:
 
 Data Visualizations: Tableau
 
-**Background**
-**Cyclistic**
+### **Background**
+#### **Cyclistic**
 A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each day.
 
 Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.
@@ -31,11 +31,11 @@ Moreno has set a clear goal: Design marketing strategies aimed at converting cas
 **Scenario**
 I am assuming to be a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, my team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, my team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve our recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
-**Ask**
-**Business Task**
+### **Ask**
+#### **Business Task**
 Devise marketing strategies to convert casual riders to members.
 
-**Analysis Questions**
+#### **Analysis Questions**
 Three questions will guide the future marketing program:
 
 How do annual members and casual riders use Cyclistic bikes differently?
@@ -43,25 +43,25 @@ Why would casual riders buy Cyclistic annual memberships?
 How can Cyclistic use digital media to influence casual riders to become members?
 Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
 
-**Prepare**
-**Data Source**
+### **Prepare**
+#### **Data Source**
 I will use Cyclistic’s historical trip data to analyze and identify trends from Jan 2022 to Dec 2022 which can be downloaded from divvy_tripdata. The data has been made available by Motivate International Inc. under this license.
 
 This is public data that can be used to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit from using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
 
-**Data Organization**
+#### **Data Organization**
 There are 12 files with naming convention of YYYYMM-divvy-tripdata and each file includes information for one month, such as the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not. The corresponding column names are ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
 
-**Process**
+### **Process**
 BigQuery is used to combine the various datasets into one dataset and clean it.
 Reason:
 A worksheet can only have 1,048,576 rows in Microsoft Excel because of its inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data.
 
-**Combining the Data**
+#### **Combining the Data**
 SQL Query: Data Combining
 12 csv files are uploaded as tables in the dataset '2022_tripdata'. Another table named "combined_data" is created, containing 5,667,717 rows of data for the entire year.
 
-**Data Exploration**
+#### **Data Exploration**
 SQL Query: Data Exploration
 Before cleaning the data, I am familiarizing myself with the data to find the inconsistencies.
 
@@ -107,7 +107,7 @@ There are no **duplicate** rows in the data.
 
 11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
 
-**Data Cleaning**
+#### **Data Cleaning**
 SQL Query: Data Cleaning
 
 1. All the rows having missing values are deleted.
@@ -115,7 +115,7 @@ SQL Query: Data Cleaning
 3. Trips with duration less than a minute and longer than a day are excluded.
 4. Total 1,375,912 rows are removed in this step.
    
-**Analyze and Share**
+### **Analyze and Share**
 SQL Query: Data Analysis
 Data Visualization: Tableau
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Tableau.
@@ -172,7 +172,7 @@ Summary:
             Start and end their trips close to universities, residential and commercial areas.
 
 
-**Act**
+### **Act**
 
 After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
 Recommendations:
