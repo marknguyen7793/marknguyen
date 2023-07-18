@@ -1,5 +1,5 @@
 
-#**Bike-Share: Google Data Analytics Capstone Project**
+# **Bike-Share: Google Data Analytics Capstone Project**
 
 Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
 
