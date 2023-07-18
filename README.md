@@ -116,7 +116,7 @@ SQL Query: [Data Cleaning](https://github.com/marknguyen7793/marknguyen/blob/mai
 4. Total 1,375,912 rows are removed in this step.
    
 ### **Analyze and Share**
-SQL Query: Data Analysis
+SQL Query: [Data Analysis](https://github.com/marknguyen7793/marknguyen/blob/main/Google-Data-Analytics-Capstone-Cyclistic-Case-Study%20/04.%20Data%20Analysis.sql)
 Data Visualization: Tableau
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Tableau.
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?
