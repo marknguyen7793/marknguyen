@@ -11,7 +11,7 @@ Quick links:
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [accessed on 04/03/23]
 
 SQL Queries:
-01. Data Combining
+01. [Data Combining](https://github.com/marknguyen7793/marknguyen/blob/main/Google-Data-Analytics-Capstone-Cyclistic-Case-Study%20/01.%20Data%20Combining.sql)
 02. Data Exploration
 03. Data Cleaning
 04. Data Analysis
