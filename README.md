@@ -122,7 +122,8 @@ The analysis question is: How do annual members and casual riders use Cyclistic 
 
 First of all, member and casual riders are compared by the type of bikes they are using.
 
-image
+![Screenshot 2023-07-18 012319](https://github.com/marknguyen7793/marknguyen/assets/73132788/d8a1250b-b085-4db8-9174-e6ccc058743e)
+
 
 The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders.
 
