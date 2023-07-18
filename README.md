@@ -74,7 +74,8 @@ The table below shows the all column names and their data types. The ride_id col
 
 The following table shows number of null values in each column.
 
-image
+![Screenshot 2023-07-18 011805](https://github.com/marknguyen7793/marknguyen/assets/73132788/17ef33fb-c227-4d32-b983-6b180a0b3afc)
+
 
 Note that some columns have same number of missing values. This may be due to missing information in the same row i.e. station's name and id for the same station and latitude and longitude for the same ending station.
 
