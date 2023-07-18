@@ -151,7 +151,8 @@ These findings lead to the conclusion that casual commuters travel longer (appro
 
 To further understand the differences in casual and member riders, locations of starting and ending stations can be analysed. Stations with the most trips are considered using filters to draw out the following conclusions.
 
-image
+![Screenshot 2023-07-18 012847](https://github.com/marknguyen7793/marknguyen/assets/73132788/9fd867a8-d91c-4970-8448-15a10b27c258)
+
 
 Casual riders have frequently started their trips from the stations in vicinity of museums, parks, beach, harbor points and aquarium while members have begun their journeys from stations close to universities, residential areas, restaurants, hospitals, grocery stores, theatre, schools, banks, factories, train stations, parks and plazas.
 
