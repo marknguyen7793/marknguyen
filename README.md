@@ -14,7 +14,7 @@ SQL Queries:
 01. [Data Combining](https://github.com/marknguyen7793/marknguyen/blob/main/Google-Data-Analytics-Capstone-Cyclistic-Case-Study%20/01.%20Data%20Combining.sql)
 02. [Data Exploration](https://github.com/marknguyen7793/marknguyen/blob/main/Google-Data-Analytics-Capstone-Cyclistic-Case-Study%20/02.%20Data%20Exploration)
 03. [Data Cleaning](https://github.com/marknguyen7793/marknguyen/blob/main/Google-Data-Analytics-Capstone-Cyclistic-Case-Study%20/03.%20Data%20Cleaning.sql)
-04. Data Analysis
+04. [Data Analysis](https://github.com/marknguyen7793/marknguyen/blob/main/Google-Data-Analytics-Capstone-Cyclistic-Case-Study%20/04.%20Data%20Analysis.sql)
 
 Data Visualizations: Tableau
 
