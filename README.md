@@ -156,7 +156,7 @@ To further understand the differences in casual and member riders, locations of 
 
 Casual riders have frequently started their trips from the stations in vicinity of museums, parks, beach, harbor points and aquarium while members have begun their journeys from stations close to universities, residential areas, restaurants, hospitals, grocery stores, theatre, schools, banks, factories, train stations, parks and plazas.
 
-image
+![Screenshot 2023-07-18 012940](https://github.com/marknguyen7793/marknguyen/assets/73132788/9fc64f19-f8e9-4d2e-b006-3d91a6964ab7)
 
 Similar trend can be observed in ending station locations. Casual riders end their journay near parks, museums and other recreational sites whereas members end their trips close to universities, residential and commmercial areas. So this proves that casual riders use bikes for leisure activities while members extensively rely on them for daily commute.
 
