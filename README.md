@@ -12,7 +12,7 @@ Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html
 
 SQL Queries:
 01. [Data Combining](https://github.com/marknguyen7793/marknguyen/blob/main/Google-Data-Analytics-Capstone-Cyclistic-Case-Study%20/01.%20Data%20Combining.sql)
-02. Data Exploration
+02. [Data Exploration](https://github.com/marknguyen7793/marknguyen/blob/main/Google-Data-Analytics-Capstone-Cyclistic-Case-Study%20/02.%20Data%20Exploration)
 03. Data Cleaning
 04. Data Analysis
 
