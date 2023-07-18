@@ -117,7 +117,7 @@ SQL Query: [Data Cleaning](https://github.com/marknguyen7793/marknguyen/blob/mai
    
 ### **Analyze and Share**
 SQL Query: [Data Analysis](https://github.com/marknguyen7793/marknguyen/blob/main/Google-Data-Analytics-Capstone-Cyclistic-Case-Study%20/04.%20Data%20Analysis.sql)
-Data Visualization: Tableau
+Data Visualization: [Tableau](https://public.tableau.com/app/profile/mark.nguyen7350/viz/Marknguyen/BikeTypes#1)
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Tableau.
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?
 
